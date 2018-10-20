@@ -1,0 +1,22 @@
+{
+  "name": "bio_landing",
+  "version": "1.0.0",
+  "description": "Responsive portolio page",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaeleb/bio_landing.git"
+  },
+  "author": "Kaeleb Drew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaeleb/bio_landing/issues"
+  },
+  "homepage": "https://github.com/kaeleb/bio_landing#readme",
+  "dependencies": {
+    "node-sass": "^4.9.4"
+  }
+}
