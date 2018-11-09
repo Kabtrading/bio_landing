@@ -16,6 +16,10 @@ body {
     line-height: 1.5;
 }
 
+#about-img {
+    @include aboutBackground;
+}
+
 // headings
 
 h1, h2, h3 {
@@ -97,19 +101,21 @@ main {
     }
 
     .job-1 {
-        grid-area: job1
+        grid-area: job1;
+        
     }
 
     .job-2 {
-        grid-area: job2
+        grid-area: job2;
+        
     }
 
     .job-3 {
-        grid-area: job3
+        grid-area: job3;
     }
 
     .job {
-        background: lighten($primary-color, 5);
+        background: rgba(lighten($primary-color, 10), 0.5);
         padding: 0.5rem;
         border-bottom: $secondary-color 5px solid;
     }
